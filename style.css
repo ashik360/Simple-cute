@@ -1,0 +1,171 @@
+@font-face{
+	font-family: "nexa-b";
+	src: url(fonts/Nexa-Bold.otf);
+}
+
+@font-face{
+	font-family: "montserrat";
+	src: url(fonts/Montserrat-Regular.ttf);
+}
+
+*{
+	margin:0;
+	padding:0; 
+}
+
+body{
+	font-family: "montserrat";
+	padding-right: 85px;
+	padding-left: 85px;
+	background-color: #dcdde1;
+}
+
+.logo{
+	font-family: "nexa-b";
+	font-weight: 700px;
+	font-size: 80px;
+	text-align: center;
+	color:#535c68;
+}
+
+.header-menu{
+	height: 60px;
+	background-color: #f5f6fa;
+	margin-top: 20px;
+	padding-top: 12px;
+
+	 
+}
+
+.header-menu p{
+	display: inline;
+	font-family: nexa-b;
+	font-size: 40px;
+	padding-left: 60px; 
+	padding-right: 50px;
+	color: #535c68;
+}
+
+.header-menu span{
+	padding-left: 590px;
+	font-family: nexa-b;
+	font-size: 40px;
+	color: #535c88;
+}
+
+.image-box img{
+	width: 1705px;
+	height: 650px;
+	border:10px solid white;
+
+}
+
+.image-box{
+	padding-top: 25px;
+	/*margin-right: 70px;*/
+}
+
+.box-1{
+	height: 585px;
+	width: 405px;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.box-2{
+	height: 585px;
+	width: 405px;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.box-3{
+	height: 585px;
+	width: 405px;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.box-4{
+	height: 585px;
+	width: 405px;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.box-1 img{
+	width:360px;
+	height:250px;
+	padding: 20px;
+}
+
+.box-1 p{
+	font-family: "montserrat"
+	font-size: 15px;
+	text-align:justify;
+	line-height: 2; 
+	padding: 15px;
+}
+
+.box{
+	margin-right: 30px;
+}
+
+.box-2{
+	margin-right: 30px;
+}
+
+.box-3{
+	margin-right: 30px;
+}
+
+.box-4{
+	margin-right: 0px;
+}
+
+.box-5{
+	height:240px; 
+	width:1720px;
+	background-color: #fff;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	line-height: 2;
+	  
+}
+
+.box-5 p{
+	font-family: "montserrat"
+	font-size: 30px;
+	text-align:justify;
+	padding: 20px;
+}
+
+h3{
+	padding: 20px;
+}
+
+.footer-menu{
+	height: 60px;
+	background-color: #f5f6fa;
+	margin-top: 20px;
+	padding-top: 3px;
+	margin-bottom: 30px;
+}
+
+.footer-menu p{
+	color: #535c68;
+	display: inline;
+	font-family: nexa-b;
+	font-size: 18px;
+	padding-left: 50px; 
+	padding-right: 5px;
+	
+}
+
+.footer-menu span{
+	padding-left: 430px;
+	font-family: nexa-b;
+	font-size: 40px;
+	color: #535c88;
+}
+
